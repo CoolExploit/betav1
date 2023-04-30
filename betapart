@@ -1,0 +1,1568 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local DevilPremium = Instance.new("ScreenGui")
+local Scripts = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextButton_12 = Instance.new("TextButton")
+local TextButton_13 = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local TextButton_15 = Instance.new("TextButton")
+local TextButton_16 = Instance.new("TextButton")
+local TextButton_17 = Instance.new("TextButton")
+local TextButton_18 = Instance.new("TextButton")
+local TextButton_19 = Instance.new("TextButton")
+local TextButton_20 = Instance.new("TextButton")
+local TextButton_21 = Instance.new("TextButton")
+local TextButton_22 = Instance.new("TextButton")
+local TextButton_23 = Instance.new("TextButton")
+local TextButton_24 = Instance.new("TextButton")
+local TextButton_25 = Instance.new("TextButton")
+local TextButton_26 = Instance.new("TextButton")
+local TextButton_27 = Instance.new("TextButton")
+local Executerclose = Instance.new("TextButton")
+local Executeropen = Instance.new("TextButton")
+local Executer = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local TextButton_28 = Instance.new("TextButton")
+local TextButton_29 = Instance.new("TextButton")
+local TextButton_30 = Instance.new("TextButton")
+local TextButton_31 = Instance.new("TextButton")
+
+--Properties:
+
+DevilPremium.Name = "DevilPremium"
+DevilPremium.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+DevilPremium.Parent = game.CoreGui
+
+Scripts.Name = "Scripts"
+Scripts.Parent = DevilPremium
+Scripts.BackgroundColor3 = Color3.fromRGB(222, 24, 24)
+Scripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.Position = UDim2.new(0.203082502, 0, 0.168336719, 0)
+Scripts.Size = UDim2.new(0, 583, 0, 329)
+
+UICorner.Parent = Scripts
+
+TextLabel.Parent = Scripts
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.000127524137, 0, -0.00104159117, 0)
+TextLabel.Size = UDim2.new(0, 584, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Devil Hub Premium"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+ScrollingFrame.Parent = Scripts
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(-0.00103414059, 0, 0.145787001, 0)
+ScrollingFrame.Size = UDim2.new(0, 583, 0, 281)
+
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.708917439, 0, 0.764342487, 0)
+TextButton.Size = UDim2.new(0, 129, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "GodStuffGui"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+TextButton_2.Parent = ScrollingFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0.710869908, 0, 0.310917705, 0)
+TextButton_2.Size = UDim2.new(0, 129, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Wary Hub"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+TextButton_3.Parent = ScrollingFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(0.709237456, 0, 0.412287652, 0)
+TextButton_3.Size = UDim2.new(0, 129, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Asylum"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+TextButton_4.Parent = ScrollingFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.Position = UDim2.new(0.0446706377, 0, 0.119136855, 0)
+TextButton_4.Size = UDim2.new(0, 129, 0, 50)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Salvation Hub"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+
+TextButton_5.Parent = ScrollingFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.Position = UDim2.new(0.347878575, 0, 0.0130310263, 0)
+TextButton_5.Size = UDim2.new(0, 164, 0, 50)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Ban Gui"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+
+TextButton_6.Parent = ScrollingFrame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.Position = UDim2.new(0.718114495, 0, 0.0150274336, 0)
+TextButton_6.Size = UDim2.new(0, 129, 0, 50)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "doki doki Hub"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
+
+TextButton_7.Parent = ScrollingFrame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.Position = UDim2.new(0.368483096, 0, 0.678760648, 0)
+TextButton_7.Size = UDim2.new(0, 156, 0, 49)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Utg"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextSize = 14.000
+
+TextButton_8.Parent = ScrollingFrame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.Position = UDim2.new(0.347504318, 0, 0.311784863, 0)
+TextButton_8.Size = UDim2.new(0, 159, 0, 50)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "Kasper Utg"
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextSize = 14.000
+
+TextButton_9.Parent = ScrollingFrame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.Position = UDim2.new(0.366042346, 0, 0.589279413, 0)
+TextButton_9.Size = UDim2.new(0, 157, 0, 50)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "Toxicty"
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextSize = 14.000
+
+TextButton_10.Parent = ScrollingFrame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.Position = UDim2.new(0.714943528, 0, 0.212704465, 0)
+TextButton_10.Size = UDim2.new(0, 126, 0, 50)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "Good Gui"
+TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.TextSize = 14.000
+
+TextButton_11.Parent = ScrollingFrame
+TextButton_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.Position = UDim2.new(0.0436988734, 0, 0.214025274, 0)
+TextButton_11.Size = UDim2.new(0, 129, 0, 50)
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "BodyGuards Gui"
+TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.TextSize = 14.000
+
+TextButton_12.Parent = ScrollingFrame
+TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.Position = UDim2.new(0.348075897, 0, 0.118517205, 0)
+TextButton_12.Size = UDim2.new(0, 159, 0, 50)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "Sex Gui"
+TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.TextSize = 14.000
+
+TextButton_13.Parent = ScrollingFrame
+TextButton_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.Position = UDim2.new(0.0410408974, 0, 0.413657486, 0)
+TextButton_13.Size = UDim2.new(0, 129, 0, 50)
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = "UnderTale Hub"
+TextButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.TextSize = 14.000
+
+TextButton_14.Parent = ScrollingFrame
+TextButton_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.Position = UDim2.new(0.348683745, 0, 0.21391274, 0)
+TextButton_14.Size = UDim2.new(0, 162, 0, 50)
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "Jump Scare"
+TextButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.TextSize = 14.000
+
+TextButton_15.Parent = ScrollingFrame
+TextButton_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.Position = UDim2.new(0.708917439, 0, 0.59036988, 0)
+TextButton_15.Size = UDim2.new(0, 129, 0, 50)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "Utg - Key DevKey"
+TextButton_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.TextSize = 14.000
+
+TextButton_16.Parent = ScrollingFrame
+TextButton_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.Position = UDim2.new(0.717312455, 0, 0.117602304, 0)
+TextButton_16.Size = UDim2.new(0, 129, 0, 50)
+TextButton_16.Font = Enum.Font.SourceSans
+TextButton_16.Text = "Inf Yeild"
+TextButton_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.TextSize = 14.000
+
+TextButton_17.Parent = ScrollingFrame
+TextButton_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_17.Position = UDim2.new(0.365904748, 0, 0.411188424, 0)
+TextButton_17.Size = UDim2.new(0, 156, 0, 50)
+TextButton_17.Font = Enum.Font.SourceSans
+TextButton_17.Text = "RainBowHub"
+TextButton_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.TextSize = 14.000
+
+TextButton_18.Parent = ScrollingFrame
+TextButton_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_18.Position = UDim2.new(0.04467066, 0, 0.680780828, 0)
+TextButton_18.Size = UDim2.new(0, 129, 0, 50)
+TextButton_18.Font = Enum.Font.SourceSans
+TextButton_18.Text = "Glitcher Hub"
+TextButton_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.TextSize = 14.000
+
+TextButton_19.Parent = ScrollingFrame
+TextButton_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_19.Position = UDim2.new(0.041360829, 0, 0.312287569, 0)
+TextButton_19.Size = UDim2.new(0, 129, 0, 50)
+TextButton_19.Font = Enum.Font.SourceSans
+TextButton_19.Text = "Kays Gui"
+TextButton_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.TextSize = 14.000
+
+TextButton_20.Parent = ScrollingFrame
+TextButton_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_20.Position = UDim2.new(0.0410408974, 0, 0.505438328, 0)
+TextButton_20.Size = UDim2.new(0, 129, 0, 50)
+TextButton_20.Font = Enum.Font.SourceSans
+TextButton_20.Text = "SonicHub"
+TextButton_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.TextSize = 14.000
+
+TextButton_21.Parent = ScrollingFrame
+TextButton_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_21.Position = UDim2.new(0.0450441837, 0, 0.0139649222, 0)
+TextButton_21.Size = UDim2.new(0, 129, 0, 50)
+TextButton_21.Font = Enum.Font.SourceSans
+TextButton_21.Text = "Frank Admin"
+TextButton_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_21.TextSize = 14.000
+
+TextButton_22.Parent = ScrollingFrame
+TextButton_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_22.Position = UDim2.new(0.710732341, 0, 0.504068494, 0)
+TextButton_22.Size = UDim2.new(0, 129, 0, 50)
+TextButton_22.Font = Enum.Font.SourceSans
+TextButton_22.Text = "Obama Core"
+TextButton_22.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_22.TextSize = 14.000
+
+TextButton_23.Parent = ScrollingFrame
+TextButton_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_23.Position = UDim2.new(0.362275034, 0, 0.504339159, 0)
+TextButton_23.Size = UDim2.new(0, 156, 0, 50)
+TextButton_23.Font = Enum.Font.SourceSans
+TextButton_23.Text = "Shiba X Utg"
+TextButton_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_23.TextSize = 14.000
+
+TextButton_24.Parent = ScrollingFrame
+TextButton_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_24.Position = UDim2.new(0.04467066, 0, 0.588999987, 0)
+TextButton_24.Size = UDim2.new(0, 129, 0, 50)
+TextButton_24.Font = Enum.Font.SourceSans
+TextButton_24.Text = "Scrambles Hub"
+TextButton_24.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_24.TextSize = 14.000
+
+TextButton_25.Parent = ScrollingFrame
+TextButton_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_25.Position = UDim2.new(0.365904778, 0, 0.765982985, 0)
+TextButton_25.Size = UDim2.new(0, 156, 0, 50)
+TextButton_25.Font = Enum.Font.SourceSans
+TextButton_25.Text = "RainBowHub"
+TextButton_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_25.TextSize = 14.000
+
+TextButton_26.Parent = ScrollingFrame
+TextButton_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_26.Position = UDim2.new(0.708917439, 0, 0.679410994, 0)
+TextButton_26.Size = UDim2.new(0, 129, 0, 50)
+TextButton_26.Font = Enum.Font.SourceSans
+TextButton_26.Text = "Project Script V2"
+TextButton_26.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.TextSize = 14.000
+
+TextButton_27.Parent = ScrollingFrame
+TextButton_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_27.Position = UDim2.new(0.0428557768, 0, 0.765712321, 0)
+TextButton_27.Size = UDim2.new(0, 129, 0, 50)
+TextButton_27.Font = Enum.Font.SourceSans
+TextButton_27.Text = "Kbrown Hub"
+TextButton_27.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_27.TextSize = 14.000
+
+Executerclose.Name = "Executer close"
+Executerclose.Parent = Scripts
+Executerclose.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Executerclose.Position = UDim2.new(0.185878515, 0, 0.0303220451, 0)
+Executerclose.Size = UDim2.new(0, 94, 0, 29)
+Executerclose.Font = Enum.Font.SourceSans
+Executerclose.Text = "Executer close"
+Executerclose.TextColor3 = Color3.fromRGB(0, 0, 0)
+Executerclose.TextSize = 14.000
+
+Executeropen.Name = "Executer open"
+Executeropen.Parent = Scripts
+Executeropen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Executeropen.Position = UDim2.new(0.018323645, 0, 0.0303220451, 0)
+Executeropen.Size = UDim2.new(0, 94, 0, 29)
+Executeropen.Font = Enum.Font.SourceSans
+Executeropen.Text = "Executer open"
+Executeropen.TextColor3 = Color3.fromRGB(0, 0, 0)
+Executeropen.TextSize = 14.000
+
+Executer.Name = "Executer"
+Executer.Parent = Scripts
+Executer.BackgroundColor3 = Color3.fromRGB(222, 24, 24)
+Executer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Executer.Position = UDim2.new(0.203082502, 0, 0.168336675, 0)
+Executer.Size = UDim2.new(0, 583, 0, 329)
+Executer.Visible = false
+
+TextLabel_2.Parent = Executer
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.00274933875, 0, -0.00388009846, 0)
+TextLabel_2.Size = UDim2.new(0, 583, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Executer"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+UICorner_2.Parent = Executer
+
+TextBox.Parent = Executer
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.Position = UDim2.new(0.0377358496, 0, 0.145896658, 0)
+TextBox.Size = UDim2.new(0, 539, 0, 218)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 14.000
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+TextButton_28.Parent = Executer
+TextButton_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_28.Position = UDim2.new(0.0291595198, 0, 0.860182345, 0)
+TextButton_28.Size = UDim2.new(0, 145, 0, 37)
+TextButton_28.Font = Enum.Font.SourceSans
+TextButton_28.Text = "Execute"
+TextButton_28.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_28.TextSize = 14.000
+
+TextButton_29.Parent = Executer
+TextButton_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_29.Position = UDim2.new(0.30360207, 0, 0.860182345, 0)
+TextButton_29.Size = UDim2.new(0, 143, 0, 37)
+TextButton_29.Font = Enum.Font.SourceSans
+TextButton_29.Text = "Clear"
+TextButton_29.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_29.TextSize = 14.000
+
+TextButton_30.Parent = Executer
+TextButton_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_30.Position = UDim2.new(0.578044593, 0, 0.860182345, 0)
+TextButton_30.Size = UDim2.new(0, 140, 0, 37)
+TextButton_30.Font = Enum.Font.SourceSans
+TextButton_30.Text = "Respawn"
+TextButton_30.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_30.TextSize = 14.000
+
+TextButton_31.Parent = Executer
+TextButton_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_31.Position = UDim2.new(0.852487087, 0, 0.854103327, 0)
+TextButton_31.Size = UDim2.new(0, 73, 0, 37)
+TextButton_31.Font = Enum.Font.SourceSans
+TextButton_31.Text = "R6"
+TextButton_31.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_31.TextSize = 14.000
+
+-- Module Scripts:
+
+local fake_module_scripts = {}
+
+do -- TextButton_31.R6
+	local script = Instance.new('ModuleScript', TextButton_31)
+	script.Name = "R6"
+	local function module_script()
+		local R6Converter = {}
+		function R6Converter.load(Plr)
+		Plr = game.Players:WaitForChild(Plr)
+		local FalseChar = script:WaitForChild("DefaultCharacter"):Clone()
+		local PlayersCharacter = game.Players:GetCharacterAppearanceAsync(Plr.UserId):Clone()
+		local FaceID = (Plr.Character:WaitForChild("Head"):FindFirstChild("face") or {Texture = "http://www.roblox.com/asset/?id=144080495"}).Texture
+		local Accessories = {}
+		FalseChar:WaitForChild("Head"):WaitForChild("face").Texture = FaceID
+		FalseChar:SetPrimaryPartCFrame(Plr.Character:WaitForChild("HumanoidRootPart").CFrame)
+		for _,Prt in pairs(PlayersCharacter:GetDescendants()) do
+		if Prt:IsA("Accessory") or Prt:IsA("Hat") or Prt:IsA("BodyColors") or Prt:IsA("CharacterMesh")or Prt:IsA("Pants") or Prt:IsA("Shirt") or Prt:IsA("ShirtGraphic") or Prt:IsA("Tool") then
+		table.insert(Accessories,Prt:Clone())
+		end
+		end
+		
+		for _,Prt in pairs(Plr.Character:GetChildren()) do
+		Prt:Destroy()
+		end
+		for _,Prt in pairs(FalseChar:GetChildren()) do
+		Prt.Parent = Plr.Character
+		end
+		for _,Prt in pairs(Accessories) do
+		Prt.Parent = Plr.Character
+		end
+		
+		
+		end
+		
+		return R6Converter
+		
+	end
+	fake_module_scripts[script] = module_script
+end
+
+
+-- Scripts:
+
+local function MFMIEFG_fake_script() -- Scripts.Dragify 
+	local script = Instance.new('LocalScript', Scripts)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(MFMIEFG_fake_script)()
+local function HYZJO_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(HYZJO_fake_script)()
+local function XDAQZJ_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(6274987259).okboomer(plr.name)
+	end)
+	
+end
+coroutine.wrap(XDAQZJ_fake_script)()
+local function QNLX_fake_script() -- TextButton_2.Script 
+	local script = Instance.new('Script', TextButton_2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(6889197456)(plr.Name)
+	end)
+	
+end
+coroutine.wrap(QNLX_fake_script)()
+local function MDBEEP_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(MDBEEP_fake_script)()
+local function DDQTDA_fake_script() -- TextButton_3.Script 
+	local script = Instance.new('Script', TextButton_3)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(4992512410):Asylumgotskidded(plr.Name)
+	end)
+	
+end
+coroutine.wrap(DDQTDA_fake_script)()
+local function ZBUEI_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(ZBUEI_fake_script)()
+local function LUNAS_fake_script() -- TextButton_4.Script 
+	local script = Instance.new('Script', TextButton_4)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(6327292058).Salvation(plr.Name)
+	end)
+	
+end
+coroutine.wrap(LUNAS_fake_script)()
+local function YGLV_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(YGLV_fake_script)()
+local function XNGDS_fake_script() -- TextButton_5.Script 
+	local script = Instance.new('Script', TextButton_5)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(4945569088).load(plr.Name)
+	end)
+	
+end
+coroutine.wrap(XNGDS_fake_script)()
+local function MMKD_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(MMKD_fake_script)()
+local function NHGKC_fake_script() -- TextButton_6.Script 
+	local script = Instance.new('Script', TextButton_6)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(5662351054):DokiDoki('DokiDoki', plr.Name)
+	end)
+	
+end
+coroutine.wrap(NHGKC_fake_script)()
+local function IMJD_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(IMJD_fake_script)()
+local function SBLREN_fake_script() -- TextButton_7.Script 
+	local script = Instance.new('Script', TextButton_7)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(12609110716).y(plr.Name)
+	end)
+	
+end
+coroutine.wrap(SBLREN_fake_script)()
+local function YDIZWKE_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(YDIZWKE_fake_script)()
+local function YCDLB_fake_script() -- TextButton_8.Script 
+	local script = Instance.new('Script', TextButton_8)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(5000363317).UwUMoment(plr.Name)
+	end)
+	
+end
+coroutine.wrap(YCDLB_fake_script)()
+local function YNPHIV_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(YNPHIV_fake_script)()
+local function DOPKXN_fake_script() -- TextButton_9.Script 
+	local script = Instance.new('Script', TextButton_9)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(4936620258):Fire(plr.Name)
+	end)
+	
+end
+coroutine.wrap(DOPKXN_fake_script)()
+local function FTJU_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(FTJU_fake_script)()
+local function BIIDIGC_fake_script() -- TextButton_10.Script 
+	local script = Instance.new('Script', TextButton_10)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(6067273022).OMG_OP(plr.Name)
+	end)
+	
+end
+coroutine.wrap(BIIDIGC_fake_script)()
+local function VBWYE_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(VBWYE_fake_script)()
+local function LWPDQR_fake_script() -- TextButton_11.Script 
+	local script = Instance.new('Script', TextButton_11)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(11172873454).RMIA(plr.Name)
+	end)
+	
+end
+coroutine.wrap(LWPDQR_fake_script)()
+local function AYXSQ_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(AYXSQ_fake_script)()
+local function QVOGZ_fake_script() -- TextButton_12.Script 
+	local script = Instance.new('Script', TextButton_12)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(5318164365)(plr.Name)
+	end)
+	
+end
+coroutine.wrap(QVOGZ_fake_script)()
+local function HIQZTWE_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(HIQZTWE_fake_script)()
+local function MKZYOO_fake_script() -- TextButton_13.Script 
+	local script = Instance.new('Script', TextButton_13)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(5778027005).underman(plr.Name)
+	end)
+	
+end
+coroutine.wrap(MKZYOO_fake_script)()
+local function BOBVRGP_fake_script() -- TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_13)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(BOBVRGP_fake_script)()
+local function UJCSWNR_fake_script() -- TextButton_14.Script 
+	local script = Instance.new('Script', TextButton_14)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(0x301fe09f1).load(plr.Name)
+	end)
+	
+end
+coroutine.wrap(UJCSWNR_fake_script)()
+local function RGEPHPS_fake_script() -- TextButton_14.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_14)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(RGEPHPS_fake_script)()
+local function ZFAEIHC_fake_script() -- TextButton_15.Script 
+	local script = Instance.new('Script', TextButton_15)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(5028754550).Lmao(plr.name)
+	end)
+	
+end
+coroutine.wrap(ZFAEIHC_fake_script)()
+local function SHDT_fake_script() -- TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(SHDT_fake_script)()
+local function AMCT_fake_script() -- TextButton_16.Script 
+	local script = Instance.new('Script', TextButton_16)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(7634392335)(plr.Name)
+	end)
+	
+end
+coroutine.wrap(AMCT_fake_script)()
+local function SDOKEPW_fake_script() -- TextButton_16.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_16)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(SDOKEPW_fake_script)()
+local function QNPPDOH_fake_script() -- TextButton_17.Script 
+	local script = Instance.new('Script', TextButton_17)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(4838360731).RainbowHub(plr.name)
+	end)
+	
+end
+coroutine.wrap(QNPPDOH_fake_script)()
+local function WOXSUS_fake_script() -- TextButton_17.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_17)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(WOXSUS_fake_script)()
+local function FRWEEY_fake_script() -- TextButton_18.Script 
+	local script = Instance.new('Script', TextButton_18)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(4828652003).Glitch(plr.name)
+	end)
+	
+end
+coroutine.wrap(FRWEEY_fake_script)()
+local function QWQBH_fake_script() -- TextButton_18.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_18)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(QWQBH_fake_script)()
+local function VTYC_fake_script() -- TextButton_19.Script 
+	local script = Instance.new('Script', TextButton_19)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(4945821345).lmao(plr.Name)
+	end)
+	
+end
+coroutine.wrap(VTYC_fake_script)()
+local function JQXWY_fake_script() -- TextButton_19.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_19)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(JQXWY_fake_script)()
+local function VEOIY_fake_script() -- TextButton_20.Script 
+	local script = Instance.new('Script', TextButton_20)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(5352721272):Fire(plr.Name)
+	end)
+	
+end
+coroutine.wrap(VEOIY_fake_script)()
+local function DGFFSAI_fake_script() -- TextButton_20.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_20)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(DGFFSAI_fake_script)()
+local function NKMA_fake_script() -- TextButton_21.Script 
+	local script = Instance.new('Script', TextButton_21)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(5506895582):FranksAdmin('Frank',plr.Name)
+	end)
+	
+end
+coroutine.wrap(NKMA_fake_script)()
+local function ABKLA_fake_script() -- TextButton_21.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_21)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(ABKLA_fake_script)()
+local function JCCV_fake_script() -- TextButton_22.Script 
+	local script = Instance.new('Script', TextButton_22)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3469218329).load(plr.Name)
+	end)
+	
+end
+coroutine.wrap(JCCV_fake_script)()
+local function RVTSPU_fake_script() -- TextButton_22.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_22)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(RVTSPU_fake_script)()
+local function IMRNTEO_fake_script() -- TextButton_23.Script 
+	local script = Instance.new('Script', TextButton_23)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(4207680460).shiba(plr.name)
+	end)
+	
+end
+coroutine.wrap(IMRNTEO_fake_script)()
+local function VWWJUXK_fake_script() -- TextButton_23.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_23)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(VWWJUXK_fake_script)()
+local function UBYA_fake_script() -- TextButton_24.Script 
+	local script = Instance.new('Script', TextButton_24)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(5125340287).scrambles(plr.name)
+	end)
+	
+end
+coroutine.wrap(UBYA_fake_script)()
+local function QKJRE_fake_script() -- TextButton_24.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_24)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(QKJRE_fake_script)()
+local function XHUDJIO_fake_script() -- TextButton_25.Script 
+	local script = Instance.new('Script', TextButton_25)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(4838360731).RainbowHub(plr.name)
+	end)
+	
+end
+coroutine.wrap(XHUDJIO_fake_script)()
+local function YDAITOS_fake_script() -- TextButton_25.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_25)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(YDAITOS_fake_script)()
+local function RFISRJA_fake_script() -- TextButton_26.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_26)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(RFISRJA_fake_script)()
+local function TRGJGHX_fake_script() -- TextButton_26.Script 
+	local script = Instance.new('Script', TextButton_26)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(6274987259).v2(plr.name)
+	end)
+	
+end
+coroutine.wrap(TRGJGHX_fake_script)()
+local function DULXCTS_fake_script() -- TextButton_27.Script 
+	local script = Instance.new('Script', TextButton_27)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(6355915532).load(plr.name)
+	end)
+	
+end
+coroutine.wrap(DULXCTS_fake_script)()
+local function IOQRVO_fake_script() -- TextButton_27.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_27)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(IOQRVO_fake_script)()
+local function KLFQ_fake_script() -- Executerclose.LocalScript 
+	local script = Instance.new('LocalScript', Executerclose)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Executer.Visible = false
+		script.Parent.Parent.Open.Visible = false
+		script.Parent.Visible = true
+	end)
+end
+coroutine.wrap(KLFQ_fake_script)()
+local function RZKJ_fake_script() -- Executeropen.LocalScript 
+	local script = Instance.new('LocalScript', Executeropen)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Executer.Visible = true
+		script.Parent.Parent.Close.Visible = false
+		script.Parent.Visible = true
+	end)
+end
+coroutine.wrap(RZKJ_fake_script)()
+local function VNOFO_fake_script() -- TextButton_29.Script 
+	local script = Instance.new('Script', TextButton_29)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	Mouse.Button1Down:Connect(function()
+	local TextBox = script.Parent
+		TextBox.Text = ""
+	end)
+end
+coroutine.wrap(VNOFO_fake_script)()
+local function AONHGBR_fake_script() -- TextButton_30.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_30)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:connect(function()
+			script.Parent.Parent.ServerEvents.Respawn:FireServer()
+		end)
+end
+coroutine.wrap(AONHGBR_fake_script)()
+local function BNWY_fake_script() -- TextButton_30.ServerEvents 
+	local script = Instance.new('Script', TextButton_30)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Respawn.OnServerEvent:connect(function(plr)
+		plr:LoadCharacter()
+	end)
+end
+coroutine.wrap(BNWY_fake_script)()
+local function DJRY_fake_script() -- TextButton_31.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_31)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+	script.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(DJRY_fake_script)()
+local function OKGUTMR_fake_script() -- nil.Script 
+	local script = Instance.new('Script', nil)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(player)
+	require(script.Parent.Parent.R6).load(player.Name)
+	end)
+end
+coroutine.wrap(OKGUTMR_fake_script)()
+local function CHFL_fake_script() -- Executer.Dragify 
+	local script = Instance.new('LocalScript', Executer)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(CHFL_fake_script)()
